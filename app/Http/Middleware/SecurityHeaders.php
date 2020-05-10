@@ -17,6 +17,7 @@ class SecurityHeaders
     {
         $response = $next($request);
         $response->header('Upgrade-Insecure-Requests', '1');
+        $response->header('Content-Security-Policy', 'default-src \'self\'; script-src \'self\'; connect-src \'self\'; style-src \'self\' https://fonts.googleapis.com; img-src \'self\'; font-src \'self\' https://fonts.gstatic.com/s/nunito/v12/; object-src \'none\'; media-src \'none\'; worker-src \'none\'');
 
         return $response;
     }
