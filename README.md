@@ -6,6 +6,10 @@ Web Application Security Template is a Laravel based web application whose aim i
 
 [![CircleCI](https://circleci.com/gh/HannahMilton/web_application_security_template/tree/master.svg?style=shield&circle-token=d8f18bb513a8381d19ae9d3bceca495d75ede242)](https://circleci.com/gh/HannahMilton/web_application_security_template/tree/master)
 
+## Task List
+- [x] Add in Content Security Policy header
+- [ ] Add in example of Sub Resource Integrity
+
 ## Resources
 
 ### Pluralsight

@@ -36,6 +36,9 @@
                                 worker-src \'none\'');
                     </code>
                 </pre>
+                <h1> Sub Resource Integrity </h1>
+                <p>Subresource Integrity (SRI) header ensures that when we are embedding from a third party, the content we are embedding is legitimate. This header works by comparing a hashed value of a file with the file we receive. If the files hashes do not match then it has been altered in some way and is rejected. 
+This header works well when third parties use versioning. We can hash a specific version of their content and do not have to worry about them changing the file without us knowing. It does not work well if the third party continually updates the current file and we can’t be sure that the file will not change. This is where the relationship between SRI and Content Security Policies shine. In an ideal world, we would use both these headers.</p>
             </div>
         </div>
     </body>
