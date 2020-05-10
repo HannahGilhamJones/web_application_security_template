@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/security-headers', function () {
+    return view('security-headers');
+})->name('securityheaders');
