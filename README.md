@@ -9,6 +9,8 @@ Web Application Security Template is a Laravel based web application whose aim i
 ## Task List
 - [x] Add in Content Security Policy header
 - [ ] Add in example of Sub Resource Integrity
+- [x] Add in Cross Site Scripting header
+- [ ] Add in Security.txt file
 
 ## Resources
 

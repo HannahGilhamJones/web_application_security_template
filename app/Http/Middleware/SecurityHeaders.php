@@ -20,6 +20,7 @@ class SecurityHeaders
         $response->header(
             'Content-Security-Policy',
             'default-src \'self\'; script-src \'self\'; connect-src \'self\'; style-src \'self\' https://fonts.googleapis.com/; img-src \'self\'; font-src \'self\' https://fonts.gstatic.com/s/nunito/v12/; object-src \'none\'; media-src \'none\'; worker-src \'none\'');
+        $response->header('X-XSS-Protection', '1; mode=block');
 
         return $response;
     }
