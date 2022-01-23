@@ -12,6 +12,12 @@ Web Application Security Template is a Laravel based web application whose aim i
 - [x] Add in Cross Site Scripting header
 - [x] Add in Security.txt file
 - [ ] Description of CAA
+- [ ] Description of HPKP
+- [ ] Addition of reporting on security headers
+- [ ] Show code for adding reporting to security headers
+- [ ] Add in link where your reports can be sent to
+- [ ] Write up of Modern Browser Security Reports
+- [ ] Write up of Introduction to Browser Security Headers
 
 ## Resources
 
@@ -19,4 +25,5 @@ Web Application Security Template is a Laravel based web application whose aim i
 
 The following courses were taken:
 
-[Play by Play: Modern Web Security Patterns](https://app.pluralsight.com/courses/fe4c2fb6-5d71-4ac4-a178-6b0ec6d983dd)
+[Play by Play: Modern Web Security Patterns](https://app.pluralsight.com/library/courses/play-by-play-modern-web-security-patterns/)
+[What Every Developer Must Know About HTTPS](https://app.pluralsight.com/library/courses/https-every-developer-must-know/)nom a
